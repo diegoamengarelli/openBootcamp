@@ -4,6 +4,8 @@ texto = "Lorem Ipsum is simply dummy text of the printing and typesetting indust
 
 f.write(texto)
 
+f = open('ejemplo.txt', 'r')
+
 datos = f.read()
 
 f.close()
