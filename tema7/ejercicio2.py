@@ -9,4 +9,4 @@ if int(hora) >= 19:
 else:
     h_resta = 18-int(hora)
     m_resta = 59-int(minutos)
-    print("Quedan {} horas y {} minutos para irse".format(h_resta, m_resta))
+    print(f'Quedan {h_resta} horas y {m_resta} minutos para irse')
