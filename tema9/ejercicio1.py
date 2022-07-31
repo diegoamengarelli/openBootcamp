@@ -1,0 +1,5 @@
+paises = input("Ingrese una lista de países (separados por comas): ")
+paises = paises.replace(" ", "")
+lista = paises.split(",")
+ordenada = sorted(lista)
+print(ordenada)
